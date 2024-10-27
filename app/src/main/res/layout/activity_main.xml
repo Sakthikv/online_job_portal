@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="243dp"
+        android:layout_height="213dp"
+        android:background="@drawable/usercon"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237">
+
+        <ImageView
+            android:id="@+id/usericon"
+            android:layout_width="142dp"
+            android:layout_height="164dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/user3"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.237" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="143dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="170dp"
+            android:fontFamily="serif"
+            android:textColor="@color/blue"
+            android:text="USER"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.237"
+            tools:layout_editor_absoluteY="319dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/recruiterframe"
+        android:layout_width="243dp"
+        android:layout_height="213dp"
+        android:background="@drawable/usercon"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.329">
+
+        <ImageView
+            android:id="@+id/recruitericon"
+            android:layout_width="142dp"
+            android:layout_height="164dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/recruiter"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.237" />
+
+        <TextView
+            android:id="@+id/recruiter"
+            android:layout_width="143dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="160dp"
+            android:fontFamily="serif"
+            android:text="Recruiter"
+            android:textSize="30dp"
+            android:textColor="@color/blue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.237"
+            tools:layout_editor_absoluteY="319dp" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

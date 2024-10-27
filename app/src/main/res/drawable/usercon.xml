@@ -1,0 +1,32 @@
+<!-- shadow_button.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Border Background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <corners android:topLeftRadius="0dp" android:topRightRadius="80dp" android:bottomRightRadius="0dp" android:bottomLeftRadius="80dp" />
+        </shape>
+    </item>
+
+    <!-- Shadow -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#33806464" /> <!-- Set shadow color and alpha -->
+            <corners android:topLeftRadius="30dp" android:topRightRadius="30dp" android:bottomRightRadius="30dp" android:bottomLeftRadius="30dp" />
+        </shape>
+    </item>
+
+    <!-- Content Background -->
+    <item
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp"
+        android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <corners android:topLeftRadius="30dp" android:topRightRadius="30dp" android:bottomRightRadius="30dp" android:bottomLeftRadius="30dp" />
+        </shape>
+    </item>
+
+</layer-list>
